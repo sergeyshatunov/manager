@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Title" />
+
+  <EditText
+    android:id="@+id/account_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textCapSentences" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Initial amount" />
+
+  <EditText
+    android:id="@+id/account_initial_amount"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number" />
+
+  <Button
+    android:id="@+id/save_button"
+    android:text="Save"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+  <Button
+    android:id="@+id/delete_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete" />
+
+</LinearLayout>
